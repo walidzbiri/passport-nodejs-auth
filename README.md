@@ -1,0 +1,19 @@
+- [x] Install sequelize,express,ejs,body-parser,mysql2,ejs layouts,validator,session, passport etc ...
+- [x] Setup express server boilerplate
+- [x] Adding all the useful middlewares
+- [x] Code the front-end part of the app: home,login,register,dashboard views
+- [x] Define a layout page, with notification-messages as partials
+- [x] Implement the user model(id,name,email,pass) then sync the db
+- [x] Handling the post /users/register :
+        - [x] Validating all the fields using express-validator
+        - [x] Displaying validation errors sent by the server
+        - [x] Redirecting to /users/login
+- [x] Handling post /users/login :
+        - [x] Form validation
+        - [x] Redirecting to /dashboard
+- [x] Handling get /users/logout:
+        - [ ] Redirecting to /
+- [x] Deal with all the flash messages
+- [x] Define a passport localstrategy email,pass
+- [x] Forward authenticated users
+- [x] Protect /dashboard route
